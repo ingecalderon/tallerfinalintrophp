@@ -1,0 +1,155 @@
+/* # Empty CSS file for your own CSS - # Archivo CSS vacío para su propio CSS */
+
+body{
+    background: beige;
+}
+
+h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #661b50;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    color: #6c2eb9;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+footer{
+    color: #747377;
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.parrafo{
+	text-align: justify;
+	font-size: 12pt;
+	color: black;
+}
+
+.imgpequeña{
+    width: 150px;
+    height: 50px;
+}
+
+.imgmediana{
+    width: 250px;
+    height: 150px;
+}
+
+.imggrande{
+    width: 350px;
+    height: 250px;
+}
+
+/* Aplicando Media Query con tamaño de 700px */
+@media only screen and (max-width: 700px) {
+    #sitio1, #sitio2, #sitio3{
+        width:100%;
+    }
+    
+    body {
+      background-color: rgb(245, 184, 184);
+    }
+    
+    nav{
+      font-style: oblique;
+      text-align:center;
+    }
+    
+    h2{
+      font-size: 40px;
+  }
+
+    .imgmediana{
+        width:100%;
+        height: auto;
+    }
+
+    #sitio1 {
+        height:auto;
+        padding: 10px;
+        float: left;
+        min-width: 220px;
+        display:block;
+        font-size: 75%;  
+      }
+      
+      #sitio2 {
+        height:auto;
+        padding: 10px;
+        float: left;
+        min-width: 220px;
+        display:block;
+        font-size: 75%;
+      }
+      
+      #sitio3 {
+        height:auto;
+        padding:10px;
+        float:left;
+        min-width: 220px;
+        display:block;
+        font-size: 75%;
+      }
+}
+
+/* Aplicando Media Query con tamaño de 510px */
+@media only screen and (max-width: 510px) {
+    body {
+      background-color: rgb(221, 250, 177);
+    }
+
+    nav{
+      font-style: italic;
+      text-rendering: inherit;
+    }
+
+    h2{
+      font-size: 30px;
+      text-align:left;
+  }
+
+    #sitio1 {
+        height:auto;
+        padding: 5px;
+        float: left;
+        min-width: 220px;
+        display:block;
+        font-size: 50%;
+      }
+      
+      #sitio2 {
+        height:auto;
+        padding: 5px;
+        float: left;
+        min-width: 220px;
+        display:block;
+        font-size: 50%;
+      }
+      
+      #sitio3 {
+        height:auto;
+        padding:5px;
+        float:left;
+        min-width: 220px;
+        display:block;
+        font-size: 50%;
+      }
+}
